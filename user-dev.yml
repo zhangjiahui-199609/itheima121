@@ -12,9 +12,9 @@ spring:
  rabbitmq:
   host: 127.0.0.1
   port: 5672
-  virtual-host: heima121
-  username: heima121
-  password: heima121
+  virtual-host: itheima121
+  username: itheima121
+  password: itheima121
 #配置eureka的请求信息
 eureka:
   client:

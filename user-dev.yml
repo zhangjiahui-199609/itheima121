@@ -11,7 +11,7 @@ spring:
     password: saas
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///springboot
+    url: jdbc:mysql:///springcloud
     username: root
     password: root
 eureka:

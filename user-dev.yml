@@ -22,7 +22,7 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
 sms:
-  ip: 是好人
+  ip: Bingo
 management:
   endpoints:
     web:

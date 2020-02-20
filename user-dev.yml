@@ -22,5 +22,5 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
 sms:
-  ip: 127.0.0.1
+  ip: 是好人
 

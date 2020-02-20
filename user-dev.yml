@@ -9,7 +9,12 @@ spring:
     #配置应用名称
   application:
     name: user-Server-RPCHTTP
-
+ rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  virtual-host: heima121
+  username: heima121
+  password: heima121
 #配置eureka的请求信息
 eureka:
   client:

@@ -1,30 +1,26 @@
 server:
   port: 8001
 spring:
+  application:
+    name: user-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    virtual-host: itheima121
+    username: itheima121
+    password: itheima121
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springcloud
+    url: jdbc:mysql:///springboot
     username: root
     password: root
-    #配置应用名称
-  application:
-    name: user-Server-RPCHTTP
- rabbitmq:
-  host: 127.0.0.1
-  port: 5672
-  virtual-host: itheima121
-  username: itheima121
-  password: itheima121
- management: #暴露触发消息总线的地址
-  endpoints:
-    web:
-      exposure:
-        include: bus-refresh  
-#配置eureka的请求信息
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka,http://127.0.0.1:10087/eureka
+      defaultZone: http://127.0.0.1:10086/eureka
   instance:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
+sms:
+  ip: lisi
+

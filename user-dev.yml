@@ -6,9 +6,9 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    virtual-host: itheima121
-    username: itheima121
-    password: itheima121
+    virtual-host: saas
+    username: saas
+    password: saas
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql:///springboot

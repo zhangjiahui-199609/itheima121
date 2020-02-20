@@ -2,7 +2,7 @@ server:
   port: 9001
 spring:
   application:
-    name: user-service
+    name: user-Server-RPCHTTP
   rabbitmq:
     host: 127.0.0.1
     port: 5672
@@ -13,7 +13,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql:///springbootdb
     username: root
-    password: 111111
+    password: root
 eureka:
   client:
     service-url:

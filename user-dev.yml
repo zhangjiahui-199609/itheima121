@@ -11,7 +11,7 @@ spring:
     password: itheima121
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///springboot
+    url: jdbc:mysql:///springcloud
     username: root
     password: root
 eureka:
@@ -22,5 +22,5 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
 sms:
-  ip: lisi
+  ip: wangwu
 

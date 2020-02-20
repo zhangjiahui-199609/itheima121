@@ -23,4 +23,8 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
 sms:
   ip: 是好人
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
